@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,50,0.8), rgba(0,0,50,0.8)), url(./img.webp);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  
+}
+.container{
+
+}
+  form {
+    
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    max-width: 500px; 
+    height: 470px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+  }   
+  .form h1{
+    font-size: 30px;
+    margin-bottom: 60px;
+    color: #3c00a0;
+    position: relative;
+
+  }
+  .form h1::after{
+    content: "";
+    width: 30px;
+    height: 4px;
+    border-radius: 3px;
+    background: #3c00a0;
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50)
+    
+  }
+  form input {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+  }
+  .form h1{
+    width: 100%;
+    padding: 8px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background-color:  #572685;
+    color: white;
+
+  }
+
+  .btn-field{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .btn-field button{
+    flex-basis: 49%;
+    background-color: #572685;
+    color: #fff;
+    height: 40px;
+    border-radius: 13px;
+    border: 0;
+    cursor: pointer;
+    transition: 1s;
+    margin-top: 15px;
+  }
+  #nameField
+  {
+    max-height: 65px;
+    transition: max-height 0.5s;
+    overflow: hidden;
+    
+  }
+
+  .btn-field button.disable{
+    background: #eaeaea;
+    color: #555;
+
+  }
+  h2{
+   font-size: 30px;
+  }
+
