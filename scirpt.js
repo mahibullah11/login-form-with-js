@@ -2,7 +2,7 @@ function checkEmailAddress(fieldId){
     if (document.getElementById(fieldId).value === ""){
         alert("Email required")
     }
-    else if(document.getElementById(fieldId).value === "najeebkhalaku@gmail.com"){
+    else if(document.getElementById(fieldId).value === "mahibullahfreelancer@gmail.com"){
         alert("Correct Email")
     }
     
